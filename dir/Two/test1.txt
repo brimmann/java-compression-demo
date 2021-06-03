@@ -1,0 +1,16 @@
+We can use a generalization relationship to highlight commonalities
+between classes, meaning that we no longer have to define these com-
+mon characteristics multiple times. Conversely, we can use the general-
+ization to derive more specific classes from existing classes. If we want
+to add a class Professor , which is a subclass of ResearchAssociate , in
+Figure 4.23, we use the generalization to avoid having to copy the char-
+acteristics of the class ResearchAssociate to the class Professor.
+
+Similarly to the abstract class, an interface also does not have an im- Interface
+plementation or any direct instances. An interface represents a contract.
+The classes that enter into this contract, that is, the classes that imple-
+menttheinterface,obligatethemselvestoprovidethebehaviorspecified
+by the interface. In contrast to the relationship between an abstract class
+and its subclasses, an “is a” relationship between an interface and the
+classes that implement it is not necessary. Operations of interfaces never
+have an implementation.
